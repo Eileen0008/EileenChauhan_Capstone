@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-left: 990px;
+    margin-top: -77px;
+    color: #1d1c73;
+  }
+  
+  .navbar-ul {
+    list-style-type: none;
+  }
+  
+  .navbar-ul li {
+    padding: 80px;
+    float: left;
+   
+  }
+  
+  .nav-btn {
+    margin: 8px;
+    background-color: rgb(255 101 101);
+    font-family: inherit;
+    border: 0px;
+    font-size: 14px;
+    height: 70%;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+
+  .image-logo {
+    margin-left: -1380px;
+    height: 80px;
+  }
+ 

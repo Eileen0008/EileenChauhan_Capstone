@@ -1,0 +1,47 @@
+/* Listing Card Container */
+.listing-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    width: 250px; /* Adjust the width as needed */
+  }
+  
+  /* Image Styling */
+  .listing-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Title Styling */
+  .listing-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Description Styling */
+  .listing-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Price Styling */
+  .listing-card p.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff5733; /* You can choose your own color */
+    margin: 10px 0;
+  }
+  
+  /* Card Hover Effect */
+  .listing-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
